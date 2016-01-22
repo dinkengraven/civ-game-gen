@@ -16,3 +16,5 @@ MAP_TYPES = ["Archipelago", "Continents", "4 Corners", "Fractal", "Great Plains"
              "British Isles", "Caribbean", "Continents Plus", "Earth", "Earth Plus", "Fractal",
              "Eastern United States", "Ice Age", "Inland Sea", "Japanese Mainland", "Pangea Plus",
              "Mediterranean", "Mesopotamia", "Ring", "Sandstorm", "Shuffle"]
+
+CONDITIONS = ["Domination", "Cultural", "Science", "Diplomatic", "Time"]
