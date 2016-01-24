@@ -40,4 +40,11 @@ RSpec.describe CivGame, type: :model do
     end
   end
 
+  describe "#print_rules" do
+    let(:game) { CivGame.new }
+    it "prints the rules as a string" do
+      expect(game.print_rules).to be_a(String)
+    end
+  end
+
 end
