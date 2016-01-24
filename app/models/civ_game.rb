@@ -28,11 +28,11 @@ class CivGame < ActiveRecord::Base
 	end
 
   def print_rules
-    "Player: #{@player_civ}\n
-     AI Civs: #{@num_civs}\n
-     City states: #{@num_city_states}\n
-     Map: #{@map_type}\n
-     Size: #{@map_size}\n
+    "Player: #{@player_civ}
+     AI Civs: #{@num_civs}
+     City states: #{@num_city_states}
+     Map: #{@map_type}
+     Size: #{@map_size}
      Victory: #{@victory}"
   end
 end
