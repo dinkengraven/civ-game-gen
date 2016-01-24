@@ -1,3 +1,5 @@
+require 'twitter'
+
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = ENV["CONSUMER_KEY"]
   config.consumer_secret     = ENV["CONSUMER_SECRET"]
@@ -5,5 +7,5 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV["ACCESS_SECRET"]
 end
 
-game = CivGame.create
+game = CivGame.new
 client.update(game.print_rules)
