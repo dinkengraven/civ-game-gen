@@ -1,4 +1,4 @@
-class CivGame < ActiveRecord::Base
+class CivGame 
   attr_reader :num_civs, :num_conditions, :num_city_states, :player_civ, :map_type, :map_size
 
   def initialize
